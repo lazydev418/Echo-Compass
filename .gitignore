@@ -124,4 +124,4 @@ gradle/
 gradlew.bat
 gradle.properties
 gradlew
-build.gradle
+*.gradle
