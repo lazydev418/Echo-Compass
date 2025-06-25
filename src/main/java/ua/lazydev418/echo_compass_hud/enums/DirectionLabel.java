@@ -1,4 +1,4 @@
-package ua.lazydev418.echo_compass.enums;
+package ua.lazydev418.echo_compass_hud.enums;
 
 import net.minecraft.network.chat.Component;
 

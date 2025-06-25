@@ -1,7 +1,8 @@
-package ua.lazydev418.echo_compass.gui;
+package ua.lazydev418.echo_compass_hud.gui;
 
 import net.minecraft.ChatFormatting;
-import ua.lazydev418.echo_compass.enums.DirectionLabel;
+import ua.lazydev418.echo_compass_hud.EchoCompassHUD;
+import ua.lazydev418.echo_compass_hud.enums.DirectionLabel;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
@@ -11,7 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import java.util.EnumSet;
 
 public class CompassRenderer {
-    private static final ResourceLocation COMPASS_BACKGROUND = new ResourceLocation("echo_compass", "textures/gui/compass_background.png");
+    private static final ResourceLocation COMPASS_BACKGROUND = new ResourceLocation(EchoCompassHUD.MOD_ID, "textures/gui/compass_background.png");
     private static final DirectionLabel[] DIRECTIONS = DirectionLabel.values();
 
     private static final int DIRECTION_COUNT = DIRECTIONS.length;

@@ -1,4 +1,4 @@
-package ua.lazydev418.echo_compass.mixin;
+package ua.lazydev418.echo_compass_hud.mixin;
 
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.gui.GuiGraphics;

@@ -1,8 +1,8 @@
-package ua.lazydev418.echo_compass.gui;
+package ua.lazydev418.echo_compass_hud.gui;
 
 import net.minecraft.resources.ResourceLocation;
-import ua.lazydev418.echo_compass.EchoCompass;
-import ua.lazydev418.echo_compass.interfaces.IPlayerTabOverlay;
+import ua.lazydev418.echo_compass_hud.EchoCompassHUD;
+import ua.lazydev418.echo_compass_hud.interfaces.IPlayerTabOverlay;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.PlayerTabOverlay;
@@ -14,7 +14,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
 @Mod.EventBusSubscriber(
-        modid = EchoCompass.MOD_ID,
+        modid = EchoCompassHUD.MOD_ID,
         bus = Mod.EventBusSubscriber.Bus.FORGE,
         value = {Dist.CLIENT}
 )

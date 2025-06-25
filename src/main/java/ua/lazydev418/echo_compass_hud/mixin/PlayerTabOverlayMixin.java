@@ -1,9 +1,9 @@
-package ua.lazydev418.echo_compass.mixin;
+package ua.lazydev418.echo_compass_hud.mixin;
 
 import net.minecraft.client.gui.components.PlayerTabOverlay;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
-import ua.lazydev418.echo_compass.interfaces.IPlayerTabOverlay;
+import ua.lazydev418.echo_compass_hud.interfaces.IPlayerTabOverlay;
 
 @Mixin({PlayerTabOverlay.class})
 public class PlayerTabOverlayMixin implements IPlayerTabOverlay {

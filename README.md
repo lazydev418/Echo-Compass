@@ -1,6 +1,6 @@
 # Minecraft Forge Mod 1.20.1
 
-## Echo Compass
+## Echo Compass HUD
 
 A minimalist yet immersive compass overlay that shows your current direction, angle, and coordinates.
 The compass dynamically tracks your rotation and displays nearby cardinal directions with smooth transitions.
